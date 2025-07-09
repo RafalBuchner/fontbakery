@@ -19,6 +19,7 @@ class GHMarkdownReporter(HTMLReporter):
         fatal_checks = {}
         experimental_checks = {}
         other_checks = {}
+        deprecation_warning = None
 
         num_checks = 0
         for section in data["sections"]:

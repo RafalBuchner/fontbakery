@@ -31,24 +31,25 @@ dependencies = [
     "beziers >= 0.6.0, == 0.6.*",
     "cmarkgfm >= 0.4",
     "defcon",
-    "dehinter >= 3.1.0",  # 3.1.0 added dehinter.font.hint function
-    "fontTools[ufo] >= 4.47.0",  # varLib.interpolatableHelpers.InterpolatableProblem
-    "freetype-py < 2.4.0",  # see: https://github.com/fonttools/fontbakery/issues/4143
-    "Jinja2 >= 3.0.0",  # issue #4717
+    "dehinter >= 3.1.0", # 3.1.0 added dehinter.font.hint function
+    "fontTools[ufo] >= 4.47.0", # varLib.interpolatableHelpers.InterpolatableProblem
+    "freetype-py < 2.4.0", # see: https://github.com/fonttools/fontbakery/issues/4143
+    "Jinja2 >= 3.0.0", # issue #4717
     "munkres",
-    "opentypespec >= 1.9.2",  # recognize 'sunu' script tag for Sunuwar (fontbakery/issues/5014)
+    "opentypespec >= 1.9.2", # recognize 'sunu' script tag for Sunuwar (fontbakery/issues/5014)
     "opentype-sanitizer >= 9.1.0, == 9.*",
-    "packaging >= 14.5",  # VERSION_PATTERN was added on v14.5 (fontbakery/issues/4792)
+    "packaging >= 14.5", # VERSION_PATTERN was added on v14.5 (fontbakery/issues/4792)
     "pip-api",
     "PyYAML",
-    "requests >= 2.19",  # issue #4718
+    "requests >= 2.19", # issue #4718
     "rich",
     "toml",
     "typing_extensions ; python_version < '3.11'",
     "ufolint",
-    "ufo2ft >= 2.25.2",  # script lists for Unicode 14.0 were updated on v2.25.2
+    "ufo2ft >= 2.25.2", # script lists for Unicode 14.0 were updated on v2.25.2
     "uharfbuzz",
     "vharfbuzz >= 0.2.0",
+    "icecream>=2.1.5",
 ]
 
 [project.optional-dependencies]
